@@ -1,3 +1,12 @@
 theme: jekyll-theme-cayman
 title: raising the volume
 description: amplifying <i>the soul of reason</i>
+menu:
+  - label: home
+    link: /
+  - label: about the project
+    link: /about-the-project
+  - label: about the <i>the soul of reason</i>
+    link: /about-the-collection
+  - label: transcribe-a-thon
+    link: /transcription-event
