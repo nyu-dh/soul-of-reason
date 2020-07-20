@@ -1,12 +1,12 @@
 theme: jekyll-theme-cayman
 title: Raising the Volume
 description: Amplifying <i>The Soul of Reason</i>
+email: soulofreason@nyu.edu
 menu:
   - label: Home
-    link: /
-  - label: About the Project
-    link: /about-the-project
   - label: About <i>The Soul of Reason</i>
-    link: /about-the-collection
-  - label: Transcribe-a-thon
-    link: /transcription-event
+    anchor: '#about-the-soul-of-reason'
+  - label: About the Project
+    anchor: '#about-the-project'
+  - label: Transcribe-a-thon Events
+    link: '/virtual-transcription-events'
