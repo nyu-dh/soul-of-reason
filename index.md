@@ -5,7 +5,7 @@ layout: default
 
 <figure style="width:30%;float:left;margin: 0 30px 10px 0">
   <img alt="Portrait of Dr. Roscoe C. Brown, Jr." src="{{ 'assets/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
-  <figcaption style="margin: 0px;font-size:.8rem">Portrait of Dr. Roscoe c. Brown, Jr.</figcaption>
+  <figcaption style="margin: 0px;font-size:.8rem">Portrait of Dr. Roscoe C. Brown, Jr.</figcaption>
 </figure>
 
 The Records of NYU’s Institute for Afro-American (now African American) Affairs (IAAA), housed in NYU's University Archives, contain a series of **266 recordings of *Soul of Reason***, a half-hour radio show that aired from 1971-1986 on both the commercial radio station WNBC and the University’s radio station, WNYU.
