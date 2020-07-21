@@ -1,0 +1,35 @@
+---
+---
+// Headers
+$header-heading-color: #fff !default;
+$header-bg-color: #8900e1 !default;
+$header-bg-color-secondary: #330662 !default;
+
+// Text
+$section-headings-color: #57068c !default;
+$body-text-color: #606c71 !default;
+$body-link-color: #283b8a !default;
+$blockquote-text-color: #606c71 !default;
+
+html {
+  font-size: .9rem;
+  scroll-behavior: smooth;
+}
+blockquote {
+  border-left: none !important;
+  font-weight: bold;
+}
+#content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold !important;
+  }
+  // a { text-decoration: underline; }
+  // a:hover { text-decoration: none; }
+}
+
+@import "{{ site.theme }}";
