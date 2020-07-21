@@ -7,8 +7,8 @@ During each virtual transcribe-a-thon, project team members will be available vi
 
 __Session I.__    Wednesday, July 22, 2:00 - 4:00 PM (EST)  
 __Session II.__   Thursday, July 23, 2:00 - 4:00 PM (EST)  
-__Session III.__  Friday, July 23, 2:00 - 4:00 PM (EST)  
-__Session IV.__   Saturday, July 24, 2:00 - 4:00 PM (EST)
+__Session III.__  Friday, July 24, 2:00 - 4:00 PM (EST)  
+__Session IV.__   Saturday, July 25, 2:00 - 4:00 PM (EST)
 
 
 ## Interested in Participating? Great!
