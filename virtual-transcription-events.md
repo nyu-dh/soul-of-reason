@@ -50,7 +50,7 @@ Once you are done correcting a transcript, please mark it done on the [tracking 
 
 ### Step 7
 
-Please fill out our event assessment survey (Coming Soon!) so we can learn from your valuable experience as a transcription volunteer.
+Please fill out our [event assessment survey](https://forms.gle/9VE5pS7DLVWdaABJ7) so we can learn from your valuable experience as a transcription volunteer.
 
 ## Quicklinks
 - [Tracking Spreadsheet](https://docs.google.com/spreadsheets/d/1fDapAwMI8Iu7InBHt5cu2ZtcfCPopQ6_Ur4wQSEHi1U/edit#gid=0)
