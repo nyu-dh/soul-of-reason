@@ -8,8 +8,9 @@ $header-bg-color-secondary: #330662 !default;
 // Text
 $section-headings-color: #57068c !default;
 $body-text-color: #606c71 !default;
-$body-link-color: #283b8a !default;
+$body-link-color: #330662 !default;
 $blockquote-text-color: #606c71 !default;
+$accent-color: #00EDB2 !default;
 
 html {
   font-size: .9rem;
@@ -19,17 +20,41 @@ blockquote {
   border-left: none !important;
   font-weight: bold;
 }
+.btn:hover {
+  background-color: rgba(0, 237, 178, 0.4) !important;
+}
+#site-title {
+  color: #fff;
+  text-decoration: underline transparent $accent-color;
+}
+#site-title:hover {
+  text-decoration: underline wavy $accent-color;
+}
 #content {
+  line-height: 1.6;
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    font-weight: bold !important;
+    font-weight: bold;
   }
-  // a { text-decoration: underline; }
-  // a:hover { text-decoration: none; }
+  a {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(to right, $header-bg-color-secondary, $header-bg-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  a:hover {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: $accent-color;
+  }
 }
 
 @import "{{ site.theme }}";
