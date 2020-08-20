@@ -59,4 +59,10 @@ blockquote {
   }
 }
 
+a.footnote {
+  // background-color: transparent !important;
+  // color: #8900e1 !important;
+  -webkit-text-fill-color: unset !important;
+}
+
 @import "{{ site.theme }}";
