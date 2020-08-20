@@ -46,7 +46,7 @@ Our DH Seed Grant funding will support a graduate student digital humanities pro
 
 ### Progress
 
-So far, we have hosted one [community transcription event]({% link virtual-transcription-events.md %}) that spanned 4 days in July 2020. In total, 37 volunteers contributed their time and expertise to correcting 28+ collection transcripts, which represent roughly 14 hours of recordings!
+So far, we have hosted one [community transcription event]({{ 'virtual-transcription-events' | absolute_url }}) that spanned 4 days in July 2020. In total, 37 volunteers contributed their time and expertise to correcting 28+ collection transcripts, which represent roughly 14 hours of recordings!
 
 __Total transcripts:__ {{ page.progress.total | round }}
 
