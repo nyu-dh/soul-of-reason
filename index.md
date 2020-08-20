@@ -1,5 +1,21 @@
 ---
 layout: default
+progress:
+  total: 183.0
+  bars:
+  - label: 'corrected outside event'
+    num: 30
+    color: '#00EDB2'
+  - label: 'completed during event'
+    num: 28
+    color: '#FCA17D'
+  - label: 'partially corrected during event'
+    num: 11
+    color: '#e3c19f'
+  - label: 'remaining'
+    striped: true
+    color: '#a2a2a3'
+    num: 125
 ---
 ## About the *Soul of Reason* Collection
 
@@ -27,6 +43,14 @@ The *Soul of Reason* recordings have already been digitized and uploaded to NYU 
 Thanks to a [Digital Humanities Seed Grant](https://nyuhumanities.org/funded-activities/digital-humanities-seed-grant/) from the [NYU Center for the Humanities](https://nyuhumanities.org/) and the support of [DS3](https://cds.nyu.edu/ds3/) at the [NYU Center for Data Science](https://cds.nyu.edu/), we will be able to move beyond the important digitization and preservation work we have done and begin working collaboratively with researchers to shape their use of the **_Soul of Reason_ collection as data**. We’ll do this primarily by holding a series of community engagement events that will help us connect with interested scholars, collaboratively create and curate data, and jointly develop their research questions and methods.
 
 Our DH Seed Grant funding will support a graduate student digital humanities project using this material, and DS3 funding and guidance will support a data science graduate student’s work with tools and workflows for applying natural language processing (NLP), named entity recognition (NER), and/or topic modeling to the transcripts.
+
+### Progress
+
+So far, we have hosted one [community transcription event]({% link virtual-transcription-events.md %}) that spanned 4 days in July 2020. In total, 37 volunteers contributed their time and expertise to correcting 28+ collection transcripts, which represent roughly 14 hours of recordings!
+
+__Total transcripts:__ {{ page.progress.total | round }}
+
+{% include progress.html progress=page.progress %}
 
 ## Project Team
 
