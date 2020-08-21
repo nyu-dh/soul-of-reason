@@ -56,41 +56,10 @@ __Total transcripts:__ {{ page.progress.total | round }}
 
 (In alphabetical order)
 
-**Janet Bunde**  
-University Archivist, NYU Special Collections  
-
-**Zach Coble**  
-Head, Digital Scholarship Services  
-
-**Steven G. Fullwood**  
-Project Director of the Center for Black Visual Culture, Institute for African American Affairs  
-
-**Carol Kassel**  
-Senior Manager, Digital Library Infrastructure, Digital Library Technology Services  
-
-**Don Mennerich**  
-Digital Archivist, Digital Library Technology Services and Archival Collections Management
-
-**Marii Nyrop**  
-Digital Humanities Technology Specialist, Digital Scholarship Services
-
-**Alexandra Provo**  
-Metadata Librarian, Knowledge Access & Resource Management Services (KARMS)
-
-**Michael Stasiak**  
-Digital Content Manager, Digital Library Technology Services
-
-**Jasmine Sykes-Kunk**  
-Reference Associate, NYU Special Collections
-
-**Kimberly Tarr**  
-Media Preservation Unit Head, Barbara Goldsmith Preservation & Conservation Department
-
-**Deb Verhoff**  
-Digital Collections Manager, Digital Library Technology Services  
-
-**Deborah Willis**  
-University Professor and Chair of the Department of Photography & Imaging at the Tisch School of the Arts and Director, Institute for African American Affairs   
+{% for member in site.data.team %}
+**{{ member.name }}**  
+{{ member.title }}
+{% endfor %}  
 
 ## Contact
 
