@@ -5,9 +5,17 @@ email: soulofreason [at] nyu [dot] edu
 repository: nyu-dss/soul-of-reason
 
 # build settings
-theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 favicon: 'assets/favicon.png'
 permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
 
 collections:
   pages:
