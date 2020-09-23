@@ -25,7 +25,7 @@ progress:
 ## About the *Soul of Reason* Collection
 
 <figure style="width:30%;float:left;margin: 0 30px 10px 0">
-  <img alt="Portrait of Dr. Roscoe C. Brown, Jr." src="{{ 'images/uploads/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
+  <img alt="black and white image showing Dr. Roscoe C. Brown, Jr. seated and smiling" src="{{ 'images/uploads/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
   <figcaption style="margin: 0px;font-size:.8rem">Portrait of Dr. Roscoe C. Brown, Jr.</figcaption>
 </figure>
 

@@ -2,8 +2,8 @@
 <nav id="nav" class="navbar is-primary" >
     <div class="container">
         <div class="navbar-brand">
-            <a href="{{ '/' | absolute_url }}" class="navbar-item">
-                <img src="{{ 'assets/favicon.png' | absolute_url }}" style="filter: invert(100);" alt="{{ site.title }}" />
+            <a href="{{ '/' | absolute_url }}" class="navbar-item {% if '/' == page.url %}is-active{% endif %}">
+                <img src="{{ 'assets/favicon.png' | absolute_url }}" style="filter: invert(100);" alt="{{ site.title }}" /> &nbsp;&nbsp;&nbsp; About
             </a>
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
                 <span aria-hidden="true"></span>
