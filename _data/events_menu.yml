@@ -1,9 +1,9 @@
 - label: Events
   items:
     - name: 'About the Transcription Events'
-      link: '/events#about'
+      link: '/events#about-the-events'
       items:
         - name: July 2020
-          link: '/events#july-2020'
+          link: '/events#july-2020-transcribe-a-thon'
         - name: October 2020
-          link: '/events#october-2020'
+          link: '/events#october-2020-transcribe-a-thon'
