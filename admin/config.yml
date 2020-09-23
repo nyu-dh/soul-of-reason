@@ -5,3 +5,9 @@ backend:
 media_folder: 'images/uploads'
 collections:
   - name: posts
+    label: posts
+    folder: _posts
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
