@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 title: Raising the Volume!
 description: Amplifying <i>Soul of Reason</i>
 email: soulofreason [at] nyu [dot] edu
+repository: nyu-dss/soul-of-reason
 menu:
   - label: About <i>The Soul of Reason</i>
     anchor: '#about-the-soul-of-reason-collection'
@@ -11,3 +12,5 @@ menu:
     anchor: '#contact'
   - label: Transcribe-a-thon Events
     link: '/virtual-transcription-events'
+backend:
+  name: git-gateway
