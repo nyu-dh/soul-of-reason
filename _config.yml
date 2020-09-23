@@ -14,3 +14,4 @@ menu:
     link: '/virtual-transcription-events'
 backend:
   name: git-gateway
+  branch: main
