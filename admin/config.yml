@@ -3,4 +3,5 @@ backend:
   name: git-gateway
   branch: main
 media_folder: 'images/uploads'
-collections: []
+collections:
+  - name: posts
