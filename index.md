@@ -1,5 +1,8 @@
 ---
-layout: default
+layout: page
+title: Raising the Volume!
+subtitle: Amplifying <i>Soul of Reason</i>
+menubar: about_menu
 progress:
   total: 183.0
   bars:
@@ -20,7 +23,7 @@ progress:
 ## About the *Soul of Reason* Collection
 
 <figure style="width:30%;float:left;margin: 0 30px 10px 0">
-  <img alt="Portrait of Dr. Roscoe C. Brown, Jr." src="{{ 'assets/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
+  <img alt="Portrait of Dr. Roscoe C. Brown, Jr." src="{{ 'images/uploads/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
   <figcaption style="margin: 0px;font-size:.8rem">Portrait of Dr. Roscoe C. Brown, Jr.</figcaption>
 </figure>
 
@@ -52,24 +55,6 @@ __Total transcripts:__ {{ page.progress.total | round }}
 
 {% include progress.html progress=page.progress %}
 
-## Project Team
-
-(In alphabetical order)
-
-{% for member in site.data.team %}
-**{{ member.name }}**  
-{{ member.title }}
-{% endfor %}  
-
-## Contact
-
-Get in touch by emailing us at **{{ site.email }}**.
-
-
-<br>
-<br>
-<br>
-<br>
 
 ----
 
