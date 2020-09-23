@@ -1,4 +1,7 @@
 # netlify config
+backend:
+  name: github
+  repo: nyu-dss/soul-of-reason
 media_folder: 'images/uploads'
 collections:
   - name: posts
