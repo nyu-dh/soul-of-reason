@@ -1,10 +1,29 @@
 ---
-layout: default
+layout: page
+title: Raising the Volume!
+subtitle: Amplifying <i>Soul of Reason</i>
+menubar: about_menu
+progress:
+  total: 183.0
+  bars:
+  - label: 'corrected outside event'
+    num: 30
+    color: '#00EDB2'
+  - label: 'completed during event'
+    num: 28
+    color: '#FCA17D'
+  - label: 'partially corrected during event'
+    num: 11
+    color: '#e3c19f'
+  - label: 'remaining'
+    striped: true
+    color: '#a2a2a3'
+    num: 125
 ---
 ## About the *Soul of Reason* Collection
 
 <figure style="width:30%;float:left;margin: 0 30px 10px 0">
-  <img alt="Portrait of Dr. Roscoe C. Brown, Jr." src="{{ 'assets/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
+  <img alt="Portrait of Dr. Roscoe C. Brown, Jr." src="{{ 'images/uploads/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
   <figcaption style="margin: 0px;font-size:.8rem">Portrait of Dr. Roscoe C. Brown, Jr.</figcaption>
 </figure>
 
@@ -28,55 +47,14 @@ Thanks to a [Digital Humanities Seed Grant](https://nyuhumanities.org/funded-act
 
 Our DH Seed Grant funding will support a graduate student digital humanities project using this material, and DS3 funding and guidance will support a data science graduate student’s work with tools and workflows for applying natural language processing (NLP), named entity recognition (NER), and/or topic modeling to the transcripts.
 
-## Project Team
+### Progress
 
-(In alphabetical order)
+So far, we have hosted one [community transcription event]({{ 'virtual-transcription-events' | absolute_url }}) that spanned 4 days in July 2020. In total, 37 volunteers contributed their time and expertise to correcting 28+ collection transcripts, which represent roughly 14 hours of recordings!
 
-**Janet Bunde**  
-University Archivist, NYU Special Collections  
+__Total transcripts:__ {{ page.progress.total | round }}
 
-**Zach Coble**  
-Head, Digital Scholarship Services  
+{% include progress.html progress=page.progress %}
 
-**Steven G. Fullwood**  
-Project Director of the Center for Black Visual Culture, Institute for African American Affairs  
-
-**Carol Kassel**  
-Senior Manager, Digital Library Infrastructure, Digital Library Technology Services  
-
-**Don Mennerich**  
-Digital Archivist, Digital Library Technology Services and Archival Collections Management
-
-**Marii Nyrop**  
-Digital Humanities Technology Specialist, Digital Scholarship Services
-
-**Alexandra Provo**  
-Metadata Librarian, Knowledge Access & Resource Management Services (KARMS)
-
-**Michael Stasiak**  
-Digital Content Manager, Digital Library Technology Services
-
-**Jasmine Sykes-Kunk**  
-Reference Associate, NYU Special Collections
-
-**Kimberly Tarr**  
-Media Preservation Unit Head, Barbara Goldsmith Preservation & Conservation Department
-
-**Deb Verhoff**  
-Digital Collections Manager, Digital Library Technology Services  
-
-**Deborah Willis**  
-University Professor and Chair of the Department of Photography & Imaging at the Tisch School of the Arts and Director, Institute for African American Affairs   
-
-## Contact
-
-Get in touch by emailing us at **{{ site.email }}**.
-
-
-<br>
-<br>
-<br>
-<br>
 
 ----
 

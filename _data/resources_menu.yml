@@ -1,0 +1,13 @@
+- label: 'Resources'
+  link: '/resources'
+  items:
+    - name: Transcription Tutorial Video
+      link: '/resources#'
+    - name: Trancription Manual
+      link: '/resources#'
+    - name: Transcription Tracking Spreadsheet
+      link: '/resources#'
+    - name: Collection Terms Glossary
+      link: '/resources#'
+    - name: Slack Channel
+      link: '/resources#'

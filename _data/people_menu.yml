@@ -1,0 +1,7 @@
+- label: 'People'
+  items:
+    - name: Project Team
+      link: '/people#project-team'
+      items:
+        - name: Contact
+          link: '/people#contact'

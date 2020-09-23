@@ -1,0 +1,9 @@
+- label: Events
+  items:
+    - name: 'About the Transcription Events'
+      link: '/events#about'
+      items:
+        - name: July 2020
+          link: '/events#july-2020'
+        - name: October 2020
+          link: '/events#october-2020'
