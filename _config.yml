@@ -12,6 +12,3 @@ menu:
     anchor: '#contact'
   - label: Transcribe-a-thon Events
     link: '/virtual-transcription-events'
-backend:
-  name: git-gateway
-  branch: main
