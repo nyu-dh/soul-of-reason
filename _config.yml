@@ -1,15 +1,14 @@
-# site settings
+# main settings
 title: Raising the Volume!
 description: Amplifying <i>Soul of Reason</i>
 email: soulofreason [at] nyu [dot] edu
 repository: nyu-dss/soul-of-reason
+url: ''
+baseurl: '/soul-of-reason'
 
 # build settings
-remote_theme: chrisrhymes/bulma-clean-theme
-url: 'http://marii.info'
-baseurl: '/soul-of-reason'
-favicon: 'assets/favicon.png'
 permalink: pretty
+incremental: true
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
@@ -18,7 +17,10 @@ plugins:
   - jekyll-seo-tag
   - kramdown
   - rouge
-
 collections:
   pages:
     output: true
+
+# theme settings
+remote_theme: chrisrhymes/bulma-clean-theme
+favicon: 'assets/favicon.png'

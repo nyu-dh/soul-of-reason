@@ -3,6 +3,8 @@ layout: page
 title: Raising the Volume!
 subtitle: Amplifying <i>Soul of Reason</i>
 menubar: about_menu
+# hero_darken: true
+# hero_height: is-fullwidth
 progress:
   total: 183.0
   bars:

@@ -3,17 +3,41 @@
 $primary: #8900e1 !default;
 $secondary: #330662 !default;
 
+$accent: #00EDB2 !default;
+$accent2: #B7990D !default;
+$accent3: #D3AB9E !default;
+
+@mixin wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: $accent;
+}
+
+@mixin gradient {
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(to right, $primary, $secondary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
 
 html {
   scroll-behavior: smooth;
   word-wrap: break-word;
 }
 
-// #nav {
-//   position: -webkit-sticky; /* Safari */
-//   position: sticky;
-//   top: 0;
-// }
-
+.content {
+  a { @include gradient; }
+  a:hover {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(to right, $secondary, $primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
 // Import Main CSS file from theme
 @import "main";

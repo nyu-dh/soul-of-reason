@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Raising the Volume!
-subtitle: People
+title: People
 menubar: people_menu
 permalink: /people
+# hero_darken: true
+show_sidebar: false
+hero_height: is-fullwidth
 ---
 
 ## Project Team
