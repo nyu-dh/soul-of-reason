@@ -28,7 +28,6 @@ $fullhd-enabled: false;
 
 html {
   scroll-behavior: smooth;
-  word-wrap: break-word;
 }
 
 .title {
@@ -43,6 +42,8 @@ html {
 .content {
   a {
     font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-word;
     @include gradient;
   }
   a:hover {

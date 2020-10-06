@@ -4,8 +4,9 @@ title: Events
 menubar: events_menu
 permalink: /events
 show_sidebar: false
-# hero_darken: true
 hero_height: is-fullwidth
+redirect_from:
+  - /virtual-transcription-events
 ---
 ## Upcoming
 
