@@ -1,9 +1,8 @@
 ---
 layout: page
 menubar: about_menu
-homepage: true
-# hero_darken: true
 hero_height: is-fullwidth
+title: Home
 progress:
   total: 183.0
   bars:
@@ -29,7 +28,7 @@ progress:
   <figcaption style="margin: 0px;font-size:.8rem">Portrait of Dr. Roscoe C. Brown, Jr.</figcaption>
 </figure>
 
-The Records of NYU’s Institute for Afro-American (now African American) Affairs (IAAA), housed in NYU's University Archives, contain a series of **266 recordings of *Soul of Reason***, a half-hour radio show that aired from 1971-1986 on both the commercial radio station WNBC and the University’s radio station, WNYU.
+The Records of NYU’s Institute for Afro-American (now African American) Affairs (IAAA), housed in NYU's University Archives, contain a series of **well over a hundred recordings of *Soul of Reason***, a half-hour radio show that aired from 1971-1986 on both the commercial radio station WNBC and the University’s radio station, WNYU.
 
 The show’s host, **Dr. Roscoe C. Brown, Jr.**, was Director of the IAAA at the time. *Soul of Reason* showcased unique and vital conversations with leaders, politicians, writers, activists, and artists of African descent in New York City during the civil rights and Black Power and Arts movements that spanned nearly two decades. The program’s mission, according to its founding documents, was to be
 

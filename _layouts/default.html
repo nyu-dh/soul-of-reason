@@ -6,10 +6,10 @@
     {% assign content_width = 'is-12' %}
 {% endif %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-navbar-fixed-top">
   {% include head.html %}
   <body>
-    <!-- {% include header.html %} -->
+    {% include header.html %}
     {% unless page.hide_hero %}
         {% include hero.html %}
     {% endunless %}

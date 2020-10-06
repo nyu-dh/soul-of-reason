@@ -7,7 +7,9 @@ $accent: #00EDB2 !default;
 $accent2: #B7990D !default;
 $accent3: #D3AB9E !default;
 
-$navbar-breakpoint: 0;
+$navbar-breakpoint: 480px;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 
 @mixin wavy {
   text-decoration-line: underline;
@@ -27,32 +29,6 @@ $navbar-breakpoint: 0;
 html {
   scroll-behavior: smooth;
   word-wrap: break-word;
-}
-
-.button-nav{
-  margin: 3rem 0 0 0;
-}
-
-.btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  margin-right: 0.5rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-  padding: .5rem;
-
-  &:hover {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: rgba(0, 237, 178, 0.4) !important;
-    text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
-  }
 }
 
 .title {
@@ -78,8 +54,11 @@ html {
     -webkit-text-fill-color: transparent;
   }
 }
+
 // Import Main CSS file from theme
 @import "main";
+
+
 
 @-webkit-keyframes progress-bar-stripes {
   from {

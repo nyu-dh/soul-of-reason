@@ -11,12 +11,15 @@ permalink: pretty
 incremental: true
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-seo-tag
   - kramdown
   - rouge
+whitelist:
+  - jekyll-redirect-from
 collections:
   pages:
     output: true
