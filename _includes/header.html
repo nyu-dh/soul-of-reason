@@ -2,14 +2,9 @@
 <nav id="nav" class="navbar is-primary" >
     <div class="container">
         <div class="navbar-brand">
-            <div class="navbar-item">
-              <img src="{{ 'assets/favicon.png' | absolute_url }}" style="filter: invert(100);" alt="{{ site.title }}" />
-            </div>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+          <a href="{{ '/' | absolute_url }}" class="navbar-item {% if page.homepage %}is-active{% endif %}">
+            <img src="{{ 'assets/favicon.png' | absolute_url }}" style="filter: invert(100);" alt="{{ site.title }}" /><span style="padding: 0.5rem 0.75rem">Home</span>
+          </a>
         </div>
         <div class="navbar-menu" id="navMenu">
             <div class="navbar-start">

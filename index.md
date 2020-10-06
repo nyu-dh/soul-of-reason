@@ -1,22 +1,22 @@
 ---
 layout: page
-title: Raising the Volume!
-subtitle: Amplifying <i>Soul of Reason</i>
 menubar: about_menu
+homepage: true
 # hero_darken: true
-# hero_height: is-fullwidth
+hero_height: is-fullwidth
 progress:
   total: 183.0
   bars:
   - label: 'corrected outside event'
     num: 30
-    color: '#00EDB2'
+    color: '#474b24'
   - label: 'completed during event'
     num: 28
-    color: '#FCA17D'
+    color: '#5fbb97'
   - label: 'partially corrected during event'
     num: 11
-    color: '#e3c19f'
+    color: '#dcf763'
+    text: black
   - label: 'remaining'
     striped: true
     color: '#a2a2a3'

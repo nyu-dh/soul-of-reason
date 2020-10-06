@@ -1,4 +1,4 @@
-- name: About
+- name: Home
   link: '/'
 - name: People
   link: '/people'
