@@ -57,9 +57,9 @@ html {
 
 .title {
   a {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9) !important;
     &:hover {
-      color: rgba(255, 255, 255, 0.9);
+      color: rgba(255, 255, 255, 0.9) !important;
     }
   }
 }
