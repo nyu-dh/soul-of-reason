@@ -1,7 +1,7 @@
 <div id="progressbar" class="progress" style="height:25px">
   {% for bar in include.progress.bars %}
     {% assign percent = bar.num | divided_by: page.progress.total | times: 100 | round %}
-    <div class="progress-bar{% if bar.striped %}-striped{% endif %}" role="progressbar" style="width:{{ percent }}%;background-color:{{ bar.color }};color:{{ bar.text | default: 'white' }}" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar{% if bar.striped %}-striped{% endif %}" role="progressbar" style="width:{{ percent }}%;background-color:{{ bar.color }};color:{{ bar.text | default: 'white' }}" alt="{{ percent }} progress for {{ bar.label }}" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
       {% unless bar.striped %}{{ percent }}%{% endunless %}
     </div>
   {% endfor %}
