@@ -1,0 +1,12 @@
+- label: Events
+  items:
+    - name: 'Upcoming'
+      link: '/events#upcoming'
+      items:
+        - name: October 2020 Community Transcription Event
+          link: '/events#october-2020-transcribe-a-thon'
+    - name: 'Past'
+      link: '/events#past'
+      items:
+        - name: July 2020 Community Transcription Event
+          link: '/events#july-2020-transcribe-a-thon'

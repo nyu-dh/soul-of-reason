@@ -1,14 +1,29 @@
-theme: jekyll-theme-cayman
+# main settings
 title: Raising the Volume!
-description: Amplifying <i>Soul of Reason</i>
+subtitle: Amplifying <i>Soul of Reason</i>
 email: soulofreason [at] nyu [dot] edu
 repository: nyu-dss/soul-of-reason
-menu:
-  - label: About <i>The Soul of Reason</i>
-    anchor: '#about-the-soul-of-reason-collection'
-  - label: About the Project
-    anchor: '#about-the-project'
-  - label: Contact
-    anchor: '#contact'
-  - label: Transcribe-a-thon Events
-    link: '/virtual-transcription-events'
+url: ''
+baseurl: '/soul-of-reason'
+
+# build settings
+permalink: pretty
+incremental: true
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+whitelist:
+  - jekyll-redirect-from
+collections:
+  pages:
+    output: true
+
+# theme settings
+remote_theme: chrisrhymes/bulma-clean-theme
+favicon: 'assets/favicon.png'

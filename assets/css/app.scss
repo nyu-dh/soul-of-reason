@@ -1,0 +1,131 @@
+---
+---
+$primary: #8900e1 !default;
+$secondary: #330662 !default;
+
+$accent: #00EDB2 !default;
+$accent2: #B7990D !default;
+$accent3: #D3AB9E !default;
+
+$navbar-breakpoint: 480px;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+@mixin wavy {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: $accent;
+}
+
+@mixin gradient {
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(to right, $primary, $secondary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title {
+  a {
+    color: rgba(255, 255, 255, 0.9) !important;
+    &:hover {
+      color: rgba(255, 255, 255, 0.9) !important;
+    }
+  }
+}
+
+.content {
+  a {
+    font-weight: bold;
+    word-wrap: break-word;
+    word-break: break-word;
+    @include gradient;
+  }
+  a:hover {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(to right, $secondary, $primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+// Import Main CSS file from theme
+@import "main";
+
+
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0
+  }
+
+  to {
+    background-position: 0 0
+  }
+}
+
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 1rem 0
+  }
+
+  to {
+    background-position: 0 0
+  }
+}
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  line-height: 0;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: .25rem
+}
+
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .progress-bar {
+    transition: none
+  }
+}
+
+.progress-bar-striped {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-size: 1rem 1rem
+}
+
+.progress-bar-animated {
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .progress-bar-animated {
+    -webkit-animation: none;
+    animation: none
+  }
+}

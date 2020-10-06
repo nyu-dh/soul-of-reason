@@ -1,0 +1,15 @@
+- label: About
+  items:
+    - name: 'About the Collection'
+      link: '/#about-the-soul-of-reason-collection'
+    - name: About the Project
+      link: '/#about-the-project'
+      items:
+        - name: Background
+          link: '/#background'
+        - name: Upcoming
+          link: '/#upcoming'
+        - name: Progress
+          link: '/#progress'
+    - name: Contact
+      link: '/people#contact'

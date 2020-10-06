@@ -1,17 +1,21 @@
 ---
-layout: default
+layout: page
+menubar: about_menu
+hero_height: is-fullwidth
+title: Home
 progress:
   total: 183.0
   bars:
   - label: 'corrected outside event'
     num: 30
-    color: '#00EDB2'
+    color: '#474b24'
   - label: 'completed during event'
     num: 28
-    color: '#FCA17D'
+    color: '#5fbb97'
   - label: 'partially corrected during event'
     num: 11
-    color: '#e3c19f'
+    color: '#dcf763'
+    text: black
   - label: 'remaining'
     striped: true
     color: '#a2a2a3'
@@ -20,11 +24,11 @@ progress:
 ## About the *Soul of Reason* Collection
 
 <figure style="width:30%;float:left;margin: 0 30px 10px 0">
-  <img alt="Portrait of Dr. Roscoe C. Brown, Jr." src="{{ 'assets/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
+  <img alt="black and white image showing Dr. Roscoe C. Brown, Jr. seated and smiling" src="{{ 'images/uploads/roscoe-brown-IAAA.jpg' | absolute_url }}" width="100%"/>
   <figcaption style="margin: 0px;font-size:.8rem">Portrait of Dr. Roscoe C. Brown, Jr.</figcaption>
 </figure>
 
-The Records of NYU’s Institute for Afro-American (now African American) Affairs (IAAA), housed in NYU's University Archives, contain a series of **266 recordings of *Soul of Reason***, a half-hour radio show that aired from 1971-1986 on both the commercial radio station WNBC and the University’s radio station, WNYU.
+The Records of NYU’s Institute for Afro-American (now African American) Affairs (IAAA), housed in NYU's University Archives, contain a series of **well over a hundred recordings of *Soul of Reason***, a half-hour radio show that aired from 1971-1986 on both the commercial radio station WNBC and the University’s radio station, WNYU.
 
 The show’s host, **Dr. Roscoe C. Brown, Jr.**, was Director of the IAAA at the time. *Soul of Reason* showcased unique and vital conversations with leaders, politicians, writers, activists, and artists of African descent in New York City during the civil rights and Black Power and Arts movements that spanned nearly two decades. The program’s mission, according to its founding documents, was to be
 
@@ -46,30 +50,12 @@ Our DH Seed Grant funding will support a graduate student digital humanities pro
 
 ### Progress
 
-So far, we have hosted one [community transcription event]({{ 'virtual-transcription-events' | absolute_url }}) that spanned 4 days in July 2020. In total, 37 volunteers contributed their time and expertise to correcting 28+ collection transcripts, which represent roughly 14 hours of recordings!
+So far, we have hosted one [community transcription event]({{ '/events' | absolute_url }}) that spanned 4 days in July 2020. In total, 37 volunteers contributed their time and expertise to correcting 28+ collection transcripts, which represent roughly 14 hours of recordings!
 
 __Total transcripts:__ {{ page.progress.total | round }}
 
 {% include progress.html progress=page.progress %}
 
-## Project Team
-
-(In alphabetical order)
-
-{% for member in site.data.team %}
-**{{ member.name }}**  
-{{ member.title }}
-{% endfor %}  
-
-## Contact
-
-Get in touch by emailing us at **{{ site.email }}**.
-
-
-<br>
-<br>
-<br>
-<br>
 
 ----
 
