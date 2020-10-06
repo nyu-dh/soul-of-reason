@@ -12,6 +12,7 @@ progress:
   - label: 'completed during event'
     num: 28
     color: '#5fbb97'
+    text: black
   - label: 'partially corrected during event'
     num: 11
     color: '#dcf763'

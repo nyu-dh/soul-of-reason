@@ -10,5 +10,5 @@
 <br>
 
 {% for bar in include.progress.bars %}
-  <span style="color:{{ bar.color }};">▩</span> {{ bar.num }} {{ bar.label }}<br>
+  <p><div style="display:inline;background-color:{{ bar.color }};border: 1px solid black;margin-right:1rem;">&nbsp;&nbsp;&nbsp;&nbsp;</div>{{ bar.label }}</p>
 {% endfor %}
