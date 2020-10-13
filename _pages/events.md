@@ -14,17 +14,17 @@ redirect_from:
 **Please join us for round two of our Soul of Reason virtual transcribe-a-thon!**
 NYU Libraries' collection of radio broadcasts, created by Dr. Roscoe Brown, showcased Black and Puerto Rican art, scholarship, and life in New York City from 1971-1978. These recordings are part of the Records of the Institute of African American Affairs in NYU Special Collections. 
 
-Interested individuals can sign up to hand-correct an auto-generated transcription of an audio recording from the Soul of Reason recordings in NYU Special Collections. 🙋🏽‍♀️
-Transcripts will be assigned and available to participants to work on any time over the course of two weeks, 10/19-10/30. 📝
-After a training session on Monday 10/19, project organizers will be available via Zoom office hours on 10/22 and 10/27, or via Slack and email. 💬
+Interested individuals can sign up to hand-correct an auto-generated transcription of an audio recording from the Soul of Reason recordings in NYU Special Collections. 🙋🏽‍♀️  
+Transcripts will be assigned and available to participants to work on any time over the course of two weeks, 10/19-10/30. 📝  
+After a training session on Monday 10/19, project organizers will be available via Zoom office hours on 10/22 and 10/27, or via Slack and email.   💬
 
-Schedule:
-Training session and kick-off: Monday, 10/19, 5 pm
-Transcribing on your own: 10/19-10/30, any time of day
-Zoom office hours: Thursday, 10/22 and Tuesday, 10/27 1 pm - 2 pm
-Closing event and conversation about your experience: Friday, 10/30, 4 pm
+#### Schedule:
+__Training session and kick-off:__ Monday, 10/19, 5 pm  
+__Transcribing on your own:__ 10/19-10/30, any time of day  
+__Zoom office hours:__ Thursday, 10/22 and Tuesday, 10/27 1 pm - 2 pm  
+__Closing event and conversation about your experience:__ Friday, 10/30, 4 pm  
 
-Interested individuals can register by using this edit-a-thon session signup form: https://docs.google.com/forms/d/e/1FAIpQLScMUjKCqeCu7bMOhoeflAiGVUYTNiW1VK5bhGeX-x30_fxyDQ/viewform
+Interested individuals can register by using this edit-a-thon session [signup form](https://docs.google.com/forms/d/e/1FAIpQLScMUjKCqeCu7bMOhoeflAiGVUYTNiW1VK5bhGeX-x30_fxyDQ/viewform).
 
 
 ## Past
