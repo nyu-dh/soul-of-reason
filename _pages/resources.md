@@ -3,7 +3,6 @@ layout: page
 title: Resources
 menubar: resources_menu
 permalink: /resources
-# hero_darken: true
 show_sidebar: false
 hero_height: is-fullwidth
 ---
