@@ -16,12 +16,12 @@ NYU Libraries' collection of radio broadcasts, created by Dr. Roscoe Brown, show
 
 Interested individuals can sign up to hand-correct an auto-generated transcription of an audio recording from the Soul of Reason recordings in NYU Special Collections. 🙋🏽‍♀️  
 Transcripts will be assigned and available to participants to work on any time over the course of two weeks, 10/19-10/30. 📝  
-After a training session on Monday 10/19, project organizers will be available via Zoom office hours on 10/22 and 10/27, or via Slack and email.   💬
+After a training session on Monday 10/19, project organizers will be available via Zoom office hours on 10/21 and 10/28, or via Slack and email.   💬
 
 #### Schedule:
 __Training session and kick-off:__ Monday, 10/19, 5 pm  
 __Transcribing on your own:__ 10/19-10/30, any time of day  
-__Zoom office hours:__ Thursday, 10/22 and Tuesday, 10/27 1 pm - 2 pm  
+__Zoom office hours:__ Wednesday, 10/21, 3 pm - 4 pm and Wednesday, 10/28 2 pm - 3 pm  
 __Closing event and conversation about your experience:__ Friday, 10/30, 4 pm  
 
 Interested individuals can register by using this edit-a-thon session [signup form](https://docs.google.com/forms/d/e/1FAIpQLScMUjKCqeCu7bMOhoeflAiGVUYTNiW1VK5bhGeX-x30_fxyDQ/viewform).
