@@ -15,3 +15,6 @@
     - name: Slack Channel
       link: 'https://join.slack.com/t/soulofreason/shared_invite/zt-hn9rnqs3-LQ0eoPkXKD1WMINJALSjyw'
       new_tab: true
+    - name: Konch Login
+      link: 'https://app.konch.ai/dashboard'
+      new_tab: true
