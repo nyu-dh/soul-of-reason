@@ -7,4 +7,6 @@ show_sidebar: false
 hero_height: is-fullwidth
 ---
 
-Coming Soon!
+{% for item in site.updates %}
+- [{{ item.title }}]({{ item.url | absolute_url }}) by {{ item.author }}
+{% endfor %}

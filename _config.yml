@@ -8,6 +8,7 @@ baseurl: '/soul-of-reason'
 
 # build settings
 permalink: pretty
+markdown: kramdown
 incremental: true
 plugins:
   - jekyll-sitemap
@@ -21,6 +22,9 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 collections:
+  updates:
+    output: true
+    permalink: updates/:title/
   pages:
     output: true
 
