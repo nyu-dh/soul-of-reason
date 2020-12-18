@@ -1,13 +1,12 @@
 ---
-layout: page
+layout: update
 title: Creating a Named Entity Recognition Pipeline for the <i>Soul of Reason</i> Radio Program
 author: Nyla Ennels
-slug: creating-a named-entity-recognition-pipeline
 date: 2020-12-18
+hero_sub: Project Updates
+hero_height: is-fullwidth
 show_sidebar: false
 ---
-
-
 
 <figure style="width:30%;float:left;margin: 0 30px 10px 0">
   <img alt="black and white image showing Dr. Roscoe C. Brown, Jr. seated at a table and smiling" src="{{ 'images/uploads/roscoe.jpg' | absolute_url }}" width="100%"/>

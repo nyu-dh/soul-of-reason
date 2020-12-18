@@ -2,13 +2,13 @@
     <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
         <div class="container">
             <h1 class="title is-2">
-              <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+              {{ page.hero_title | default: site.title }}
             </h1>
             <h2 class="subtitle is-3">
               {% if page.title == 'Home' %}
                 {{ site.subtitle }}
               {% else %}
-                {{ page.title }}
+                {{ page.hero_sub | default: page.title }}
               {% endif %}
             </h2>
             {% if page.hero_link %}

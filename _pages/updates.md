@@ -8,5 +8,6 @@ hero_height: is-fullwidth
 ---
 
 {% for item in site.updates %}
-- [{{ item.title }}]({{ item.url | absolute_url }}) by {{ item.author }}
+- <b>[{{ item.title }}]({{ item.url | absolute_url }})</b>  
+published by {{ item.author }} on {{ page.date | date: '%B %d, %Y' }}
 {% endfor %}

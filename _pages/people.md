@@ -3,7 +3,6 @@ layout: page
 title: People
 menubar: people_menu
 permalink: /people
-# hero_darken: true
 show_sidebar: false
 hero_height: is-fullwidth
 ---
