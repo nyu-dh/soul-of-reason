@@ -1,19 +1,22 @@
 <section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
     <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
         <div class="container">
-            <h1 class="title is-2">
-              {{ page.hero_title | default: site.title }}
-            </h1>
-            <h2 class="subtitle is-3">
-              {% if page.title == 'Home' %}
-                {{ site.subtitle }}
-              {% else %}
-                {{ page.hero_sub | default: page.title }}
-              {% endif %}
-            </h2>
-            {% if page.hero_link %}
-                <a href="{{ page.hero_link | relative_url }}" class="button is-info is-large">{{ page.hero_link_text }}</a>
+          <h1 class="title is-2">
+            {% if page.hero_title %}
+              {{ page.hero_title }}
+            {% else %}
+              <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
             {% endif %}
+          </h1>
+          <h2 class="subtitle is-3">
+            {% if layout.hero_sub_link %}<a href="{{ layout.hero_sub_link | relative_url }}">{% endif %}
+            {% if page.title == 'Home' %}
+              {{ site.subtitle }}
+            {% else %}
+              {{ page.hero_sub | default: page.title }}
+            {% endif %}
+            {% if layout.hero_sub_link %}</a>{% endif %}
+          </h2>
         </div>
     </div>
 </section>

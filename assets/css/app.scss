@@ -138,8 +138,12 @@ html {
   }
 }
 
-.card:hover {
+.update-card:hover {
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.5), 0 0px 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.author-card {
+  margin: 3em 0 3em 0;
 }
 
 .unset-gradient {
@@ -149,4 +153,34 @@ html {
     -webkit-background-clip: initial;
     -webkit-text-fill-color: initial;
   }
+}
+
+.outlined {
+  outline: 1px grey solid;
+}
+
+.content {
+  .inline-figure {
+    float: left;
+    margin-top: 0 !important;
+    margin-left: 0;
+    margin-right: 2em;
+    margin-bottom: 2em;
+
+    .inline-figure-img {
+       width: 100%;
+    }
+
+    .inline-figure-caption {
+      margin: 0;
+      font-size: .8rem;
+    }
+  }
+}
+
+.author-card-img {
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

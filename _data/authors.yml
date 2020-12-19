@@ -1,0 +1,7 @@
+nyla:
+  name: Nyla Ennels
+  img: 'images/uploads/nyla.jpg'
+  bio: Nyla is a second-year M.S. in Data Science student and current DeepMind Fellow at NYU's Center for Data Science. She is particularly interested in Natural Language Processing  (NLP), and has completed previous projects in sentiment analysis, question answering and text summarization. Nyla will be working as a Data Scientist in the financial sector upon graduating, where she hopes to continue her work in the NLP space.
+  social:
+    - label: LinkedIn
+      link: 'https://www.linkedin.com/in/nyla-ennels/'

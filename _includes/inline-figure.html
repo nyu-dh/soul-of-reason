@@ -1,0 +1,18 @@
+{% comment %}
+ expects:
+  - img [url]
+  - caption [text]
+  accepts:
+  - width [in % format]
+  - alt [text]
+  - outline [bool]
+{% endcomment %}
+
+<figure class="inline-figure" style="width:{{ include.width | default: '100%' }};">
+  <img class="inline-figure-img {% if include.outline %}outlined{% endif %}"
+       alt="{{ include.alt | default: include.caption }}"
+       src="{{ include.img | absolute_url }}" />
+  <figcaption class="inline-figure-caption">
+    <span markdown="1">{{ include.caption }}</span>
+  </figcaption>
+</figure>
