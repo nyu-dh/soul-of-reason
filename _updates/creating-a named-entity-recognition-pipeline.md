@@ -6,7 +6,13 @@ date: 2020-12-18
 hero_sub: Project Updates
 hero_height: is-fullwidth
 show_sidebar: false
+img: 'images/uploads/vis.jpeg'
+abstract: "In this post, I discuss my experience working on the Soul of Reason collection as a Junior Data Scientist through the DS3 initiative at NYU's Center for Data Science."
 ---
+
+
+
+### Introduction
 
 <figure style="width:30%;float:left;margin: 0 30px 10px 0">
   <img alt="black and white image showing Dr. Roscoe C. Brown, Jr. seated at a table and smiling" src="{{ 'images/uploads/roscoe.jpg' | absolute_url }}" width="100%"/>
@@ -15,9 +21,8 @@ show_sidebar: false
   </figcaption>
 </figure>
 
-### Introduction
-
 In this post, I discuss my experience working on the [*Soul of Reason*](https://nyu-dss.github.io/soul-of-reason/#about-the-project) collection as a Junior Data Scientist through the [DS3](https://cds.nyu.edu/ds3/) initiative at [NYU's Center for Data Science](https://cds.nyu.edu/). *Soul of Reason* was a thirty-minute radio program that aired from 1971 to 1986 on WNBC and on the University’s radio station, WNYU; there are currently over a hundred recordings. The show was hosted by [Dr. Roscoe C. Brown, Jr.](https://www.thehistorymakers.org/biography/roscoe-c-brown-39), a former NYU professor and director of the Institute of Afro-American Affairs. *Soul of Reason* features Dr. Brown's conversations with a variety of figures, ranging from politicians and activists to artists and performers, in New York City during the Civil Rights and Black Power movements. The show was primarily focused on topics and organizations affecting the African-American, Puerto-Rican and African communities.[^1]
+
 
 
 ### The Case for Named Entity Recognition

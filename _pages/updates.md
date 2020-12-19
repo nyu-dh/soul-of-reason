@@ -2,12 +2,36 @@
 layout: page
 title: Project Updates
 permalink: /updates
-# hero_darken: true
 show_sidebar: false
 hero_height: is-fullwidth
 ---
 
-{% for item in site.updates %}
-- <b>[{{ item.title }}]({{ item.url | absolute_url }})</b>  
-published by {{ item.author }} on {{ page.date | date: '%B %d, %Y' }}
-{% endfor %}
+<div class="columns is-multiline">
+  {% for item in site.updates %}
+    <div class="column is-4-desktop is-6-tablet">
+      <a href="{{ item.url | absolute_url }}">
+        <div class="card">
+          {% if item.img %}
+          <div class="card-image">
+            <img class="image is-3by1" alt="{{ item.title }}"  style="background-image:url('{{ item.img | absolute_url }}'); background-position: center;"/>
+          </div>
+          {% endif %}
+          <div class="card-content">
+            <a href="{{ item.url | absolute_url }}">
+              <p class="title is-4 mb-3">{{ item.title }}</p>
+            </a>  
+            <p class="subtitle is-6"><b>Published by {{ item.author }}</b><br>
+            <time datetime="{{ item.date | date: '%B %d, %Y' }}">{{ item.date | date: '%B %d, %Y' }}</time></p>
+            <p>
+              {% if item.abstract %}
+              {{ item.abstract }}
+              {% else %}
+              {{ item.content | markdownify | strip_html | truncatewords: 25 }}
+              {% endif %}
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
