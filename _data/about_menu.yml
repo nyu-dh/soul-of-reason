@@ -7,8 +7,8 @@
       items:
         - name: Background
           link: '/#background'
-        - name: Upcoming
-          link: '/#upcoming'
+        - name: Plan
+          link: '/#plan'
         - name: Progress
           link: '/#progress'
     - name: Contact
