@@ -1,6 +1,8 @@
-event1:
-  transcripts_finished: 28
-  transcribers: 30
-  event2:
+total: 153
+events:
+  1:
+    transcripts_finished: 28
+    transcribers: 30
+  2:
     transcripts_finished: 35
     transcribers: 54

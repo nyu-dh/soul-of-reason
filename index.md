@@ -4,7 +4,7 @@ menubar: about_menu
 hero_height: is-fullwidth
 title: Home
 progress:
-  total: 183.0
+  total: 153.0
   bars:
   - label: 'corrected outside events'
     num: 30
@@ -14,13 +14,13 @@ progress:
     color: '#5fbb97'
     text: black
   - label: 'partially corrected during events'
-    num: 10
+    num: 13
     color: '#dcf763'
     text: black
   - label: 'remaining'
     striped: true
     color: '#a2a2a3'
-    num: 80
+    num: 47
 ---
 ## About the *Soul of Reason* Collection
 
@@ -52,7 +52,7 @@ Our DH Seed Grant funding will support a graduate student digital humanities pro
 
 ### Progress
 
-So far, we have hosted two [community transcription events]({{ '/events' | absolute_url }}) in July and October of 2020. In total, 41 volunteers contributed their time and expertise to correcting 63+ collection transcripts, which represent roughly 32 hours of recordings!
+So far, we have hosted two [community transcription events]({{ '/events' | absolute_url }}) in July and October of 2020. In total, 84 volunteers contributed their time and expertise to correcting 63+ collection transcripts, which represent roughly 32 hours of recordings!
 
 __Total transcripts:__ {{ page.progress.total | round }}  
 {% include progress.html progress=page.progress %}
