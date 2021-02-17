@@ -15,8 +15,9 @@
     {% endunless %}
     {% include callouts.html %}
     <section class="section">
-        <div class="container">
-            <div class="columns">
+        <div class="container main">
+            {% if page.intro %}{% include intro.html %}{% endif %}
+            <div class="columns block">
                 {% if page.menubar %}
                 <div class="column is-3-desktop is-3-tablet">
                     {% include menubar.html %}

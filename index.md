@@ -3,6 +3,7 @@ layout: page
 menubar: about_menu
 hero_height: is-fullwidth
 title: Home
+intro: true
 progress:
   total: 153.0
   bars:
@@ -22,6 +23,9 @@ progress:
     color: '#a2a2a3'
     num: 47
 ---
+
+
+
 ## About the *Soul of Reason* Collection
 
 {% include inline-figure.html

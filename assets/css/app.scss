@@ -1,7 +1,7 @@
 ---
 ---
-$primary: #8900e1 !default;
-$secondary: #330662 !default;
+$primary: #8900e1  !default; /* #8900e1 */
+$secondary: #db5c5c !default; /* #f54082 #d53a9d #330662 */
 
 $accent: #00EDB2 !default;
 $accent2: #B7990D !default;
@@ -10,6 +10,8 @@ $accent3: #D3AB9E !default;
 $navbar-breakpoint: 480px;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap');
 
 @mixin wavy {
   text-decoration-line: underline;
@@ -57,7 +59,7 @@ html {
   a:hover {
     font-weight: bold;
     display: inline-block;
-    text-decoration: none;
+    text-decoration: underline;
     background: linear-gradient(to right, $secondary, $primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -183,4 +185,22 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.intro {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin-bottom: 4rem !important;
+  b {
+    font-weight: 600;
+  }
+}
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to right, $primary, $secondary);
 }
