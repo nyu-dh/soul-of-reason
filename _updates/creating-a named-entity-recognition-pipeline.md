@@ -9,7 +9,6 @@ show_sidebar: false
 img: 'images/uploads/vis.jpeg'
 abstract: "In this post, I discuss my experience working on the Soul of Reason collection as a Junior Data Scientist through the DS3 initiative at NYU's Center for Data Science."
 ---
-
 ### Introduction
 
 {% include inline-figure.html

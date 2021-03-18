@@ -5,10 +5,10 @@ permalink: /updates
 show_sidebar: false
 hero_height: is-fullwidth
 ---
-
 <div class="columns is-multiline unset-gradient">
+  {% assign updates = site.updates | sort: 'date' | reverse %}
+  {% for item in updates %}
   <div class="column is-4-desktop is-6-tablet">
-  {%- for item in site.updates -%}
     {% assign author = site.data.authors[item.author] %}
     <a href="{{ item.url | absolute_url }}">
       <div class="card update-card">
@@ -21,7 +21,7 @@ hero_height: is-fullwidth
           <time datetime="{{ item.date | date: '%B %d, %Y' }}">{{ item.date | date: '%B %d, %Y' }}</time></p>
           <p>
             {% if item.abstract %}
-            {{ item.abstract }}
+            {{ item.abstract | markdownify }}
             {% else %}
             {{ item.content | markdownify | strip_html | truncatewords: 25 }}
             {% endif %}
@@ -29,6 +29,6 @@ hero_height: is-fullwidth
         </div>
       </div>
     </a>
-  {%- endfor -%}
   </div>
+  {% endfor %}
 </div>

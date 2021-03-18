@@ -6,10 +6,9 @@ hero_sub_link: 'updates'
 {% assign author = site.data.authors[page.author] %}
 <h2>{{ page.title }}</h2>
 <h4>{{ page.date | date: '%B %d, %Y' }}<br>
-By <a href="#author">{{ author.name }}</a></h4>
+{% if author %}By <a href="#author">{{ author.name }}</a>{% endif %}</h4>
 
 {{ content }}
-
 <br>
 
-{% include author-card.html author=author %}
+{% if author %}{% include author-card.html author=author %}{% endif %}

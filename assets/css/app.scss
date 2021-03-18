@@ -204,3 +204,8 @@ html {
 .border-gradient-purple {
   border-image-source: linear-gradient(to right, $primary, $secondary);
 }
+
+.update-card {
+  max-height: 600px;
+}
+.w500 { width: 500px; }
