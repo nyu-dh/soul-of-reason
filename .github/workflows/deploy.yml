@@ -17,10 +17,10 @@ jobs:
           bundler-cache: true
       - name: install
         run: gem install bundler && bundle
-      - name: build
-        run: bundle exec rake build
       - name: test
         run: bundle exec rake test
+      - name: prod build
+        run: bundle exec reset && bundle exec build
       - name: deploy
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
@@ -28,4 +28,4 @@ jobs:
           username: ${{secrets.FTP_USERNAME}}@${{secrets.FTP_SERVER}}
           password: ${{secrets.FTP_PASSWORD}}
           local-dir: ./_site/
-          # server-dir: soul-of-reason/
+          server-dir: soul-of-reason/
