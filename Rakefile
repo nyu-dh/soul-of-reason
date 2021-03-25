@@ -13,7 +13,7 @@ task :test do
     check_html: true,
     disable_external: true,
     empty_alt_ignore: true,
-    assume_extension: true,
+    assume_extension: false,
     only_4xx: true
   }
   HTMLProofer.check_directory('./_site', opts).run

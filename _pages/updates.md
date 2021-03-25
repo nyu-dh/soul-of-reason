@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Project Updates
-permalink: /updates
 show_sidebar: false
 hero_height: is-fullwidth
 ---

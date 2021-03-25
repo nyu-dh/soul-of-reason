@@ -2,7 +2,6 @@
 layout: page
 title: People
 menubar: people_menu
-permalink: /people
 show_sidebar: false
 hero_height: is-fullwidth
 ---

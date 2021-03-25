@@ -2,7 +2,6 @@
 layout: page
 title: Events
 menubar: events_menu
-permalink: /events
 show_sidebar: false
 hero_height: is-fullwidth
 redirect_from:
