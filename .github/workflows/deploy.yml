@@ -6,6 +6,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      BASEURL: '/soul-of-reason'
     steps:
       - uses: actions/checkout@v2
         with:
