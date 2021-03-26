@@ -1,5 +1,5 @@
-# soul of reason project website
-[![Build Status](https://travis-ci.com/nyu-dss/soul-of-reason.svg?branch=main)](https://travis-ci.com/nyu-dss/soul-of-reason)
+# soul of reason 🎙️
+[![ci:deploy](https://github.com/nyu-dss/black-solidarity-day/workflows/ci:deploy/badge.svg)](https://github.com/nyu-dss/black-solidarity-day/actions)
 
 ## development
 ### requirements
