@@ -9,10 +9,14 @@
 {% endcomment %}
 
 <figure class="inline-figure" style="width:{{ include.width | default: '100%' }};">
+  <a href="{{ include.img | absolute_url }}">
   <img class="inline-figure-img {% if include.outline %}outlined{% endif %}"
        alt="{{ include.alt | default: include.caption }}"
        src="{{ include.img | absolute_url }}" />
+  </a>
+  {% if include.caption %}
   <figcaption class="inline-figure-caption">
     <span markdown="1">{{ include.caption }}</span>
   </figcaption>
+  {% endif %}
 </figure>

@@ -2,6 +2,10 @@
   items:
     - name: 'Upcoming'
       link: '/events#upcoming'
+      items:
+        - name: May 8, 2021 Virtual Wiki Edit-a-thon
+          link: '/events#upcoming'
+          # link: '/events#may-8-2021-virtual-wiki-edit-a-thon'
     - name: 'Past'
       link: '/events#past'
       items:
