@@ -9,7 +9,9 @@ redirect_from:
 ---
 ## Upcoming
 
-### May 8, 2021 Virtual Wiki Edit-a-thon
+### ~~May 8, 2021 Virtual Wiki Edit-a-thon~~
+
+### This event has been postponed! Please read our statement in solidarity with GSOC-UAW Local 2110 and striking colleagues [here]({{ 'updates/solidarity-with-nyu-graduate-student-strike/' | absolute_url }}).
 
 {% include inline-figure.html
   img='images/uploads/wiki-edit-a-thon-flyer.png'

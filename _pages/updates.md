@@ -16,7 +16,7 @@ hero_height: is-fullwidth
         {% endif %}
         <div class="card-content">
           <p class="title is-4 mb-3 gradient mb-6">{{ item.title }}</p>
-          <p class="subtitle is-6"><b>Published by {{ author.name }}</b><br>
+          <p class="subtitle is-6"><b>Published by {{ author.name | default: 'Project Team' }}</b><br>
           <time datetime="{{ item.date | date: '%B %d, %Y' }}">{{ item.date | date: '%B %d, %Y' }}</time></p>
           <p>
             {% if item.abstract %}
