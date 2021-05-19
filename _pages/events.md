@@ -9,12 +9,10 @@ redirect_from:
 ---
 ## Upcoming
 
-### ~~May 8, 2021 Virtual Wiki Edit-a-thon~~
-
-### This event has been postponed! Please read our statement in solidarity with GSOC-UAW Local 2110 and striking colleagues [here]({{ 'updates/solidarity-with-nyu-graduate-student-strike/' | absolute_url }}).
+### June 19, 2021 Virtual Wiki Edit-a-thon
 
 {% include inline-figure.html
-  img='images/uploads/wiki-edit-a-thon-flyer.png'
+  img='images/uploads/soul-reason-june19.png'
   width='35%'
   view_full_link=true
   alt='may 8 2021 wiki edit-a-thon flyer image featuring an image of Dr. Roscoe Brown' %}
@@ -22,11 +20,15 @@ redirect_from:
 
 __This event will train you to contribute to Wikipedia and Wikidata by adding information related to *Soul of Reason*.__
 
-__Registration is now open at [bit.ly/SORWiki](https://www.eventbrite.com/e/amplifying-the-soul-of-reason-a-virtual-wiki-edit-a-thon-registration-150922833257)!__
+__Registration information coming soon.__
 
 #### About this Event
 
-AfroCROWD, NYU Libraries, and the NYU Institute of African American Affairs & Center for Black Visual Culture (IAAA/CBVC) are coming together to bring attention to Black culture and the African diaspora on Wikimedia platforms. Inspired by the 1970s radio show *Soul of Reason*, this event will train you to contribute to Wikipedia, Wikidata, and Wikimedia Commons. *Soul of Reason* was a half-hour radio show that aired from 1971-1986 on both the commercial radio station WNBC and the University’s radio station, WNYU. The show’s host, Dr. Roscoe C. Brown, Jr., was Director of the Institute of Afro-American (now African American) Affairs at New York University at the time. *Soul of Reason* showcased unique and vital conversations with leaders, politicians, writers, activists, and artists of African descent in New York City during the civil rights and Black Power and Arts movements. Recordings of *Soul of Reason* episodes that aired between 1971-1978 are part of the Records of the Institute of African American Affairs in NYU Special Collections.Following two community transcribe-a-thons held in 2020 to edit transcripts of *Soul of Reason*, this virtual Wiki Edit-a-thon is another chance to listen to the episodes and read the transcripts, this time while enriching information about the show and its subjects in Wiki platforms.
+AfroCROWD, NYU Libraries, and the NYU Institute of African American Affairs & Center for Black Visual Culture (IAAA/CBVC) are coming together to bring attention to Black culture and the African diaspora on Wikimedia platforms. Inspired by the 1970s radio show *Soul of Reason*, this event will train you to contribute to Wikipedia, Wikidata, and Wikimedia Commons.
+
+*Soul of Reason* was a half-hour radio show that aired from 1971-1986 on both the commercial radio station WNBC and the University’s radio station, WNYU. The show’s host, Dr. Roscoe C. Brown, Jr., was Director of the Institute of Afro-American (now African American) Affairs at New York University at the time. *Soul of Reason* showcased unique and vital conversations with leaders, politicians, writers, activists, and artists of African descent in New York City during the civil rights and Black Power and Arts movements. Recordings of *Soul of Reason* episodes that aired between 1971-1978 are part of the Records of the Institute of African American Affairs in NYU Special Collections.
+
+Following two community transcribe-a-thons held in 2020 to edit transcripts of *Soul of Reason*, this virtual Wiki Edit-a-thon is another chance to listen to the episodes and read the transcripts, this time while enriching information about the show and its subjects in Wiki platforms.
 
 Find more information on our [Wikipedia Event Page](https://en.wikipedia.org/wiki/Wikipedia:Meetup/NYC/AfroCROWD/NYU_Soul_of_Reason).
 
@@ -44,6 +46,10 @@ All attendees are subject to Wikimedia NYC’s [Code of Conduct](https://meta.wi
 
 
 ## Past
+
+### POSTPONED: ~~May 8, 2021 Virtual Wiki Edit-a-thon~~
+
+This event has been postponed to June 19th in [solidarity with GSOC-UAW Local 2110 and striking colleagues]({{ 'updates/solidarity-with-nyu-graduate-student-strike/' | absolute_url }}).
 
 ### October 2020 Transcribe-a-thon
 

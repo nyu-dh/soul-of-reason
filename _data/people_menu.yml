@@ -1,7 +1,11 @@
 - label: 'People'
   items:
+    - name: Contact
+      link: '/people#contact'
     - name: Project Team
       link: '/people#project-team'
       items:
-        - name: Contact
-          link: '/people#contact'
+        - name: Current
+          link: '/people#current'
+        - name: Past
+          link: '/people#past'
