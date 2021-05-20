@@ -20,7 +20,7 @@ redirect_from:
 
 __This event will train you to contribute to Wikipedia and Wikidata by adding information related to *Soul of Reason*.__
 
-__Registration information coming soon.__
+__Register now on our [Eventbrite page](https://www.eventbrite.com/e/amplifying-the-soul-of-reason-a-virtual-wiki-edit-a-thon-registration-156099400509)!__
 
 #### About this Event
 
