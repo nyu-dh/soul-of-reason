@@ -9,6 +9,10 @@ redirect_from:
 ---
 ## Upcoming
 
+We have no events currently scheduled.
+
+## Past
+
 ### June 19, 2021 Virtual Wiki Edit-a-thon
 
 {% include inline-figure.html
@@ -43,9 +47,6 @@ __1:45 - 3:30 pm EDT:__ Open editing in breakout rooms with Wiki coaches: Open e
 __3:00 - 3:30 pm EDT:__ Closing remarks and wrap up.
 
 All attendees are subject to Wikimedia NYC’s [Code of Conduct](https://meta.wikimedia.org/wiki/Wikimedia_New_York_City/Code_of_Conduct).
-
-
-## Past
 
 ### POSTPONED: ~~May 8, 2021 Virtual Wiki Edit-a-thon~~
 
