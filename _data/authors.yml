@@ -5,3 +5,10 @@ nyla:
   social:
     - label: LinkedIn
       link: 'https://www.linkedin.com/in/nyla-ennels/'
+jubilee:
+  name: Jubilee Marshall
+  img: 'images/uploads/jubilee.jpg'
+  bio: Jubilee Marshall is a second-year Master’s student in Archives and Public History at New York University. She is passionate about making history interesting and accessible through digital platforms. Marshall currently works as an associate editor for the Radical History Review.
+  social:
+    - label: LinkedIn
+      link: 'https://www.linkedin.com/in/jubilee-marshall-752309102/'
