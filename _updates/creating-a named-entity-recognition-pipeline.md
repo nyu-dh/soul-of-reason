@@ -17,10 +17,10 @@ abstract: In this post, I discuss my experience working on the Soul of Reason co
 {% include inline-figure.html
 img='images/uploads/roscoe.jpg'
 width='30%'
-caption='Dr. Roscoe C. Brown at NYU on October 7, 1970 \[^2\]'
+caption='Dr. Roscoe C. Brown at NYU on October 7, 1970[^1]'
 alt='black and white image showing Dr. Roscoe C. Brown, Jr. seated at a table and smiling' %}
 
-In this post, I discuss my experience working on the [_Soul of Reason_](https://nyu-dss.github.io/soul-of-reason/#about-the-project) collection as a Junior Data Scientist through the [DS3](https://cds.nyu.edu/ds3/) initiative at [NYU's Center for Data Science](https://cds.nyu.edu/). _Soul of Reason_ was a thirty-minute radio program that aired from 1971 to 1986 on WNBC and on the University’s radio station, WNYU; there are currently over a hundred recordings. The show was hosted by [Dr. Roscoe C. Brown, Jr.](https://www.thehistorymakers.org/biography/roscoe-c-brown-39), a former NYU professor and director of the Institute of Afro-American Affairs. _Soul of Reason_ features Dr. Brown's conversations with a variety of figures, ranging from politicians and activists to artists and performers, in New York City during the Civil Rights and Black Power movements. The show was primarily focused on topics and organizations affecting the African-American, Puerto-Rican and African communities.[^1](%5Bhttps://nyu-dss.github.io/soul-of-reason/#about-the-project%5D(https://nyu-dss.github.io/soul-of-reason/#about-the-project))
+In this post, I discuss my experience working on the [_Soul of Reason_](https://nyu-dss.github.io/soul-of-reason/#about-the-project) collection as a Junior Data Scientist through the [DS3](https://cds.nyu.edu/ds3/) initiative at [NYU's Center for Data Science](https://cds.nyu.edu/). _Soul of Reason_ was a thirty-minute radio program that aired from 1971 to 1986 on WNBC and on the University’s radio station, WNYU; there are currently over a hundred recordings. The show was hosted by [Dr. Roscoe C. Brown, Jr.](https://www.thehistorymakers.org/biography/roscoe-c-brown-39), a former NYU professor and director of the Institute of Afro-American Affairs. _Soul of Reason_ features Dr. Brown's conversations with a variety of figures, ranging from politicians and activists to artists and performers, in New York City during the Civil Rights and Black Power movements. The show was primarily focused on topics and organizations affecting the African-American, Puerto-Rican and African communities.[^2]
 
 ### The Case for Named Entity Recognition
 
@@ -61,4 +61,7 @@ outline='true' %}
 
 Completing this project allowed me to expand my knowledge of history, data science and NLP. It has also reminded me why initiatives such as the _Soul of Reason_ collection play a critical role in preserving history and providing useful data to all.
 
-\[^2\]: Springfield College. "Roscoe Brown (October 7, 1970)." _Archives and Special Collections,_  22 Oct. 2012. [https://springfieldcollege.contentdm.oclc.org/digital/collection/p15370coll2/id/5279/](https://springfieldcollege.contentdm.oclc.org/digital/collection/p15370coll2/id/5279/)
+
+[^1]: Springfield College. "Roscoe Brown (October 7, 1970)." _Archives and Special Collections,_  22 Oct. 2012. [https://springfieldcollege.contentdm.oclc.org/digital/collection/p15370coll2/id/5279/](https://springfieldcollege.contentdm.oclc.org/digital/collection/p15370coll2/id/5279/)
+
+[^2]: [{{ '' | absolute_url }}/#about-the-project]({{ '' | absolute_url }}/#about-the-project).
