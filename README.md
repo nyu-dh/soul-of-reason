@@ -1,16 +1,9 @@
 # soul of reason 🎙️
-[![wh deploy](https://github.com/nyu-dh/black-solidarity-day/workflows/wh:deploy/badge.svg)](https://github.com/nyu-dh/black-solidarity-day/actions)
-[![gh deploy](https://github.com/nyu-dh/black-solidarity-day/workflows/gh:deploy/badge.svg)](https://github.com/nyu-dh/black-solidarity-day/actions)
 
-## development
-### requirements
-- ruby >= 2.4 with bundler
-- git
-
-### getting started
+## getting started
 1. clone the repo and change directory into it
     ```
-    git clone https://github.com/nyu-dss/soul-of-reason.git
+    git clone https://github.com/nyu-dh/soul-of-reason.git
     cd soul-of-reason
     ```
 2. install the ruby dependencies
@@ -32,4 +25,4 @@
     git commit -m "these are the changes i made"
     git push --set-upstream origin my-branch-name
     ```
-6. to publish the changes on the live site, create and merge a [pull request](https://github.com/nyu-dss/soul-of-reason/pulls) between your new branch and `main`.
+6. to publish the changes on the live site, create and merge a [pull request](https://github.com/nyu-dh/soul-of-reason/pulls) between your new branch and `main`.
