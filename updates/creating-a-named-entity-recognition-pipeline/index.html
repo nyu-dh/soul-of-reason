@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top   theme-light ">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creating a Named Entity Recognition Pipeline for the Soul of Reason Radio Program - Raising the Volume!</title>
+  <link rel="shortcut icon" type="image/png"
+         href="/soul-of-reason/assets/favicon.png" 
+  />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+  
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+  
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Creating a Named Entity Recognition Pipeline for the Soul of Reason Radio Program | Raising the Volume!</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Creating a Named Entity Recognition Pipeline for the Soul of Reason Radio Program" />
+<meta name="author" content="Nyla Ennels" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction" />
+<meta property="og:description" content="Introduction" />
+<link rel="canonical" href="/soul-of-reason/updates/creating-a-named-entity-recognition-pipeline/" />
+<meta property="og:url" content="/soul-of-reason/updates/creating-a-named-entity-recognition-pipeline/" />
+<meta property="og:site_name" content="Raising the Volume!" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-18T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Creating a Named Entity Recognition Pipeline for the Soul of Reason Radio Program" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nyla Ennels"},"dateModified":"2020-12-18T00:00:00+00:00","datePublished":"2020-12-18T00:00:00+00:00","description":"Introduction","headline":"Creating a Named Entity Recognition Pipeline for the Soul of Reason Radio Program","mainEntityOfPage":{"@type":"WebPage","@id":"/soul-of-reason/updates/creating-a-named-entity-recognition-pipeline/"},"url":"/soul-of-reason/updates/creating-a-named-entity-recognition-pipeline/"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+<link rel="stylesheet" href="/soul-of-reason/assets/css/app.css">
+</head>
+
+  <body>
+    <nav class="navbar is-primary is-fixed-top" aria-label="Main Navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a href="/soul-of-reason/" class="navbar-item">
+        <img src="/soul-of-reason/assets/favicon.png" style="filter: invert(100);" alt="Raising the Volume!" />
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-start"></div>
+      <div class="navbar-end">
+        
+        
+        
+        <a href="/soul-of-reason/people" class="navbar-item ">People</a>
+        
+        
+        
+        <a href="/soul-of-reason/events" class="navbar-item ">Events</a>
+        
+        
+        
+        <a href="/soul-of-reason/resources" class="navbar-item ">Resources</a>
+        
+        
+        
+        <a href="/soul-of-reason/updates" class="navbar-item ">Updates</a>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+        <section class="hero  is-fullwidth  is-bold is-primary" >
+    <div class="hero-body ">
+        <div class="container">
+          <h1 class="title is-2">
+            
+              <a href="/soul-of-reason/">Raising the Volume!</a>
+            
+          </h1>
+          <h2 class="subtitle is-3">
+            <a href="/soul-of-reason/updates">
+            
+              Project Updates
+            
+            </a>
+          </h2>
+        </div>
+    </div>
+</section>
+
+    
+    
+
+    <section class="section">
+        <div class="container main">
+            
+            <div class="columns block">
+                
+                <div class="column is-12">
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+<div class="content">
+    
+<h2>Creating a Named Entity Recognition Pipeline for the <i>Soul of Reason</i> Radio Program</h2>
+<h4>December 18, 2020<br>
+By <a href="#author">Nyla Ennels</a></h4>
+
+<h3 id="introduction">Introduction</h3>
+
+<figure class="inline-figure" style="width:30%;">
+  <a href="/soul-of-reason/images/uploads/roscoe.jpg">
+  <img class="inline-figure-img " alt="black and white image showing Dr. Roscoe C. Brown, Jr. seated at a table and smiling" src="/soul-of-reason/images/uploads/roscoe.jpg" />
+  </a>
+  
+  <figcaption class="inline-figure-caption">
+    <span>Dr. Roscoe C. Brown at NYU on October 7, 1970<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></span>
+  </figcaption>
+  
+</figure>
+
+<p>In this post, I discuss my experience working on the <a href="/soul-of-reason/#about-the-project"><em>Soul of Reason</em></a> collection as a Junior Data Scientist through the <a href="https://cds.nyu.edu/ds3/">DS3</a> initiative at <a href="https://cds.nyu.edu/">NYU’s Center for Data Science</a>. <em>Soul of Reason</em> was a thirty-minute radio program that aired from 1971 to 1986 on WNBC and on the University’s radio station, WNYU; there are currently over a hundred recordings. The show was hosted by <a href="https://www.thehistorymakers.org/biography/roscoe-c-brown-39">Dr. Roscoe C. Brown, Jr.</a>, a former NYU professor and director of the Institute of Afro-American Affairs. <em>Soul of Reason</em> features Dr. Brown’s conversations with a variety of figures, ranging from politicians and activists to artists and performers, in New York City during the Civil Rights and Black Power movements. The show was primarily focused on topics and organizations affecting the African-American, Puerto-Rican and African communities.<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<h3 id="the-case-for-named-entity-recognition">The Case for Named Entity Recognition</h3>
+
+<p>The <em>Soul of Reason</em> radio recordings have been transcribed thanks to the <a href="/soul-of-reason/events">community transcription events</a> hosted by NYU Libraries. Before beginning the project, I read many of the transcripts to gain a better understanding of the radio show, and I was astounded by all of the rich historical information these transcripts contained. In one particular episode, I learned of a historical Black community known as Weeksville. This community, located in present-day Bedford-Stuyvesant, was a thriving town of free African-Americans during slavery in the 1800s.<br /></p>
+
+<p>Similar to this excerpt, each thirty-minute episode of the <em>Soul of Reason</em> assortment contains historically-rich information and expert commentary that researchers and curious individuals may wish to leverage. Given the considerable number of recordings/transcripts, it would be inefficient for any human to manually extract all of the topics of interest from each document. This is where Natural Language Processing (NLP), and in particular Named Entity Recognition (NER), prove to be especially useful; NER is a technique used to automatically identify and extract relevant entities from a corpus. Extracting pertinent entities from the <em>Soul of Reason</em> collection allows for the publication of an open database of these entities and provides the opportunity for continued research.</p>
+
+<h3 id="creating-the-pipeline">Creating the Pipeline</h3>
+
+<figure class="inline-figure" style="width:100%;">
+  <a href="/soul-of-reason/images/uploads/SOR_pipe.png">
+  <img class="inline-figure-img " alt="diagram for NER pipeline reads: 'Import Transcripts into Python,' 'Remove Speaker Lines,' 'Append Metadata to Transcripts,' 'Predict Entities,' and 'Create Final Dataset'" src="/soul-of-reason/images/uploads/SOR_pipe.png" />
+  </a>
+  
+  <figcaption class="inline-figure-caption">
+    <span>Figure 1: NER Pipeline</span>
+  </figcaption>
+  
+</figure>
+
+<p>The first step in the pipeline is a function that imports all of the transcript files into Python as a list. After this is completed, the timestamps/speaker-lines are removed from each transcript so that speakers are not unnecessarily duplicated in the final dataset. Next, the document ID for each transcript is appended to its corresponding text in Python: this allows the master metadata file to be joined later. The model then predicts the entities from each transcript and returns them as a list, along with their beginning and ending Python index, unique transcript identifier and entity label. The entity label describes what type of entity has been extracted; examples include: person, organization, date, and work of art, among other label types. Finally, the last step in the pipeline is to construct the final dataset. This is achieved by joining the master metadata file on the aforementioned predictions and labels, as seen in Figure 2 below. Statistics such as the number of unique entities and the number of entities by label type are also returned once the model completes its predictions. In addition, an <a href="https://spacy.io/usage/visualizers">entity visualizer</a> was implemented, allowing one to see the entities highlighted in a document and filter by label type. Error-handling is included in every function to manage possible incorrect inputs, typos or inconsistent file types.</p>
+
+<figure class="inline-figure" style="width:100%;">
+  <a href="/soul-of-reason/images/uploads/tbl.png">
+  <img class="inline-figure-img " alt="An example of the final dataset in tabular form" src="/soul-of-reason/images/uploads/tbl.png" />
+  </a>
+  
+  <figcaption class="inline-figure-caption">
+    <span>Figure 2: An example of the final dataset</span>
+  </figcaption>
+  
+</figure>
+
+<figure class="inline-figure" style="width:100%;">
+  <a href="/soul-of-reason/images/uploads/vis.jpeg">
+  <img class="inline-figure-img " alt="Figure 3: An example of the entity visualizer with entities highlighted in a block of text" src="/soul-of-reason/images/uploads/vis.jpeg" />
+  </a>
+  
+  <figcaption class="inline-figure-caption">
+    <span>Figure 3: An example of the entity visualizer with entities highlighted in a block of text</span>
+  </figcaption>
+  
+</figure>
+
+<h3 id="model-selection">Model Selection</h3>
+
+<p>Two primary models were tested when searching for the best NER model: the first being a pre-trained <a href="https://arxiv.org/abs/1810.04805">BERT</a> model, and the second a pre-trained <a href="https://spacy.io/">spaCy</a> model. To evaluate the performance of each, several transcripts were annotated by hand with the correct entities and labels to be used as a test set on each of the models. The test examples showed that the spaCy model performed best. I attempted to fine-tune this spaCy model, but unfortunately encountered the <a href="https://en.wikipedia.org/wiki/Catastrophic_interference">catastrophic-forgetting probelm</a>. Resolving this issue proved to be time-consuming and tedious; therefore, the final model was the non-fine-tuned spaCy pre-trained model, which nonetheless proved to be accurate.</p>
+
+<h3 id="accommodating-various-technical-backgrounds">Accommodating Various Technical Backgrounds</h3>
+
+<p>The completed code was written as a Python class in a Jupyter Notebook, with each method requiring specific input(s). To make this deliverable more accessible to those without Python coding experience, I created both a command-line script and web-browser application to perform the same tasks as the Jupyter Notebook code. Each method downloads both a csv and a json file of predicted entities to one’s computer after providing two simple file path inputs.</p>
+
+<figure class="inline-figure" style="width:100%;">
+  <a href="/soul-of-reason/images/uploads/app_pic.png">
+  <img class="inline-figure-img outlined" alt="Figure 4: The streamlit web-browser application" src="/soul-of-reason/images/uploads/app_pic.png" />
+  </a>
+  
+  <figcaption class="inline-figure-caption">
+    <span>Figure 4: The streamlit web-browser application</span>
+  </figcaption>
+  
+</figure>
+
+<p>Completing this project allowed me to expand my knowledge of history, data science and NLP. It has also reminded me why initiatives such as the <em>Soul of Reason</em> collection play a critical role in preserving history and providing useful data to all.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Springfield College. “Roscoe Brown (October 7, 1970).” <em>Archives and Special Collections,</em>  22 Oct. 2012. <a href="https://springfieldcollege.contentdm.oclc.org/digital/collection/p15370coll2/id/5279/">https://springfieldcollege.contentdm.oclc.org/digital/collection/p15370coll2/id/5279/</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p><a href="/soul-of-reason/#about-the-project">/soul-of-reason/#about-the-project</a>. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+<br>
+
+<div id="author" class="author-card card">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-left">
+        <div class="author-card-img image is-96x96" alt="Nyla Ennels" style="background-image:url('/soul-of-reason/images/uploads/nyla.jpg');"></div>
+      </div>
+      <div class="media-content">
+        <p class="title is-4">Nyla Ennels</p>
+        
+        <p class="subtitle is-6">
+          
+          <a href="https://www.linkedin.com/in/nyla-ennels/">LinkedIn</a>
+          
+        </p>
+        
+        <p>Nyla is a second-year M.S. in Data Science student and current DeepMind Fellow at NYU's Center for Data Science. She is particularly interested in Natural Language Processing  (NLP), and has completed previous projects in sentiment analysis, question answering and text summarization. Nyla will be working as a Data Scientist in the financial sector upon graduating, where she hopes to continue her work in the NLP space.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        
+    
+    <script src="/soul-of-reason/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
+</html>
