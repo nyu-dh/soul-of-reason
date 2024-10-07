@@ -1,4 +1,4 @@
-name: ci:deploy
+name: wh:deploy
 on:
   push:
     branches:
@@ -9,10 +9,10 @@ jobs:
     env:
       BASEURL: '/projects/soul-of-reason'
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout
         with:
           fetch-depth: 1
-      - uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby
 #         with:
 #           bundler-cache: true
       - name: install

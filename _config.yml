@@ -15,7 +15,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - kramdown
   - rouge
@@ -32,5 +31,6 @@ collections:
     permalink: :title/
 
 # theme settings
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 favicon: 'assets/favicon.png'
+force_theme: light

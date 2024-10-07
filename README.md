@@ -1,5 +1,6 @@
 # soul of reason 🎙️
-[![ci:deploy](https://github.com/nyu-dss/black-solidarity-day/workflows/ci:deploy/badge.svg)](https://github.com/nyu-dss/black-solidarity-day/actions)
+[![wh deploy](https://github.com/nyu-dh/black-solidarity-day/workflows/wh:deploy/badge.svg)](https://github.com/nyu-dh/black-solidarity-day/actions)
+[![gh deploy](https://github.com/nyu-dh/black-solidarity-day/workflows/gh:deploy/badge.svg)](https://github.com/nyu-dh/black-solidarity-day/actions)
 
 ## development
 ### requirements
