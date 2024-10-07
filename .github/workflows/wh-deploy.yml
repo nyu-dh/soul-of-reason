@@ -9,10 +9,10 @@ jobs:
     env:
       BASEURL: '/projects/soul-of-reason'
     steps:
-      - uses: actions/checkout
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-      - uses: ruby/setup-ruby
+      - uses: ruby/setup-ruby@v1
 #         with:
 #           bundler-cache: true
       - name: install
@@ -22,7 +22,7 @@ jobs:
       - name: prod build
         run: bundle exec rake reset && bundle exec rake build
       - name: deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{secrets.FTP_SERVER}}
           username: ${{secrets.FTP_USERNAME}}@${{secrets.FTP_SERVER}}
